@@ -1,7 +1,6 @@
-# 📊 Fintech Credit Scoring Engine & Risk Analytics Framework
+# 📊 Credit Scoring Engine & Risk Analytics Framework
 
-An automated, rule-based credit scoring simulation engine built purely in Python to evaluate customer default risks using alternative non-financial data.
-
+Công cụ mô phỏng chấm điểm tín dụng tự động, dựa trên quy tắc được xây dựng hoàn toàn bằng Python để đánh giá rủi ro vỡ nợ của khách hàng bằng cách sử dụng các dữ liệu phi tài chính thay thế. 
 ---
 
 ## 📈 Key Risk Analytics & Insights
