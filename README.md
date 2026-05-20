@@ -1,4 +1,3 @@
-<img width="5212" height="1466" alt="credit_scoring_analytics" src="https://github.com/user-attachments/assets/8a95bea9-4333-4359-97fa-91fda9480d68" />
 # 📊 Fintech Credit Scoring Engine & Risk Analytics Framework
 
 An automated, rule-based credit scoring simulation engine built purely in Python to evaluate customer default risks using alternative non-financial data.
