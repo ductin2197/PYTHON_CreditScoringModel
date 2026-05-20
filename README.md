@@ -26,7 +26,7 @@ Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic S
 ---
 
 ## 💻 Tech Stack & Core Logic
-* **Language:** Python 3
+* **Language:** Python (thực hiện bằng Google Studio Colab)
 * **Libraries:** `pandas` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
 * **Decision Logic:** * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
