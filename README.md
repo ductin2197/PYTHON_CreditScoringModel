@@ -1,6 +1,5 @@
 # 📊 Credit Scoring Engine & Risk Analytics Framework
 
-Công cụ mô phỏng chấm điểm tín dụng tự động, dựa trên quy tắc được xây dựng hoàn toàn bằng Python để đánh giá rủi ro vỡ nợ của khách hàng bằng cách sử dụng các dữ liệu phi tài chính thay thế. 
 ---
 
 ## 📈 Key Risk Analytics & Insights
@@ -9,7 +8,7 @@ Công cụ mô phỏng chấm điểm tín dụng tự động, dựa trên quy 
 ![Credit Scoring Dashboard](credit_scoring_analytics.png)
 
 * **Tỷ lệ phê duyệt tối ưu:** Hệ thống tự động kiểm soát tỷ lệ duyệt ở mức **90.3%**, đảm bảo khả năng mở rộng tệp người dùng sành sỏi công nghệ mà không nới lỏng tiêu chuẩn an toàn.
-* **Tương quan rủi ro rõ rệt:** Biểu đồ phân phối chứng minh hiệu quả hệ thống khi cô lập hoàn toàn nhóm khách hàng có lịch sử trễ hạn liên tục vượt mức (Past Due Times >= 2) vào phân khúc **REJECT** (Dải điểm dưới 500).
+* **Tương quan rủi ro rõ rệt:** Biểu đồ phân phối chứng minh hiệu quả hệ thống khi cô lập hoàn toàn nhóm khách hàng có (≥2 delinquency events — DPD flag) vào phân khúc **REJECT** (Dải điểm dưới 500).
 
 ---
 
