@@ -22,10 +22,39 @@ Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic S
 | **Lịch sử chậm thanh toán** | 0 lần <br> 1 lần <br> >= 2 lần | **+60** <br> **-20** <br> **-80** |
 | **Hóa đơn tiện ích (Điện/Nước)**| >= 1,000,000 VND <br> < 1,000,000 VND | **+30** <br> **0** |
 
+## 🐍 Python Highlight
+
+```python
+# Scoring logic — Alternative Data Scorecard
+def calculate_credit_score(wallet_tenure, payment_delays, utility_bill):
+    base_score = 500
+    
+    # Wallet tenure scoring
+    if wallet_tenure >= 24:
+        score += 50
+    elif wallet_tenure >= 6:
+        score += 20
+    else:
+        score -= 15
+    
+    # Delinquency flag — hard penalty
+    if payment_delays >= 2:
+        score -= 80        # hard-reject trigger
+    elif payment_delays == 1:
+        score -= 20
+    else:
+        score += 60        # clean repayment history
+    
+    # Utility bill signal
+    if utility_bill >= 1_000_000:
+        score += 30
+    
+    return max(300, min(850, score))  # cap 300–850
+```
 ---
 
 ## 💻 Tech Stack & Core Logic
-* **Language:** Python (thực hiện bằng Google Studio Colab)
+* **Language:** Python (thực hiện bằng Google Colab)
 * **Libraries:** `pandas` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
 * **Decision Logic:** * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
