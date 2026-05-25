@@ -42,6 +42,7 @@ df_customers.head()
 ## 💻 Tech Stack & Core Logic
 * **Language:** Python (thực hiện bằng Google Colab)
 * **Libraries:** `pandas` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
-* **Decision Logic:** * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
+* **Decision Logic:**
+  * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
   * Điểm < 500: **REJECT** | Hạn mức 0 VND
