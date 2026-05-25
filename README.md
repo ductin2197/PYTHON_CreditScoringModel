@@ -1,7 +1,5 @@
 # 📊 Credit Scoring Engine & Risk Analytics Framework
 
----
-
 ## 📈 Key Risk Analytics & Insights
 Đây là kết quả phân tích danh mục 1.000 khách hàng giả lập được trích xuất trực tiếp từ mô hình:
 
