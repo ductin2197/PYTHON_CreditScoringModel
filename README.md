@@ -36,6 +36,7 @@ def make_credit_decision(score):
 # Áp dụng quyết định
 df_customers[['Decision', 'Max_Limit']] = df_customers['Credit_Score'].apply(lambda s: pd.Series(make_credit_decision(s)))
 df_customers.head()
+```
 ---
 
 ## 💻 Tech Stack & Core Logic
