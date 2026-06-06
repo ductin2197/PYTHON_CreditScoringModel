@@ -11,8 +11,8 @@
 ---
 
 ## 🧮 Core Scoring Matrix (Bảng tra cứu điểm số)
-Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic Scorecard) với thang điểm chuẩn từ **300 đến 850**:
-(Thang điểm này là thang comparable với benchmark của FICO và là thang được sử dụng rộng rãi trên thị trường) 
+Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic Scorecard) với thang điểm chuẩn từ **300 đến 850**
+(Thang điểm này là thang comparable với benchmark của FICO và là thang được sử dụng rộng rãi trên thị trường):
 
 | Tiêu chí phân tích | Khoảng giá trị (Bin) | Điểm cộng / trừ |
 | :--- | :--- | :---: |
