@@ -16,8 +16,8 @@ Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic S
 
 | Tiêu chí phân tích | Khoảng giá trị (Bin) | Điểm cộng / trừ |
 | :--- | :--- | :---: |
-| **Thâm niên dùng Ví** | >= 24 tháng <br> 6 - 24 tháng <br> < 6 tháng | **+50** <br> **+20** <br> **-15** |
-| **Lịch sử chậm thanh toán** | 0 lần <br> 1 lần <br> >= 2 lần | **+60** <br> **-20** <br> **-80** |
+| **Thâm niên dùng Ví** | >= 24 tháng <br> 6 - 24 tháng <br> < 6 tháng | **+50** <br> **+20** <br> **-25** |
+| **Lịch sử chậm thanh toán** | 0 lần <br> 1 lần <br> 2 lần <br> >= 3 lần | **+60** <br> **-20** <br> **-60** <br> **-120** |
 | **Hóa đơn tiện ích (Điện/Nước)**| >= 1,000,000 VND <br> < 1,000,000 VND | **+30** <br> **0** |
 
 ## 🐍 Python Highlight
