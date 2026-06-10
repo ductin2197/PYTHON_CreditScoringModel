@@ -3,9 +3,9 @@
 ## 📈 Key Risk Analytics & Insights
 Đây là kết quả phân tích danh mục 1.000 khách hàng giả lập được trích xuất trực tiếp từ mô hình:
 
-![Credit Scoring Dashboard](PREVIEW.png)
+![Credit Scoring Dashboard](SIMULATION.png)
 
-* **Tỷ lệ phê duyệt tối ưu:** Hệ thống tự động kiểm soát tỷ lệ duyệt ở mức **87.5%**, đảm bảo khả năng mở rộng tệp người dùng sành sỏi công nghệ mà không nới lỏng tiêu chuẩn an toàn.
+* **Tỷ lệ phê duyệt tối ưu:** Hệ thống tự động kiểm soát tỷ lệ duyệt ở mức **88.9%**, đảm bảo khả năng mở rộng tệp người dùng sành sỏi công nghệ mà không nới lỏng tiêu chuẩn an toàn.
 * **Tương quan rủi ro rõ rệt:** Biểu đồ phân phối chứng minh hiệu quả hệ thống khi cô lập hoàn toàn nhóm khách hàng có (≥3 delinquency events — DPD flag) vào phân khúc **REJECT** (Dải điểm dưới 500).
 
 ---
