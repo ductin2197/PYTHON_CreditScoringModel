@@ -63,4 +63,4 @@ df_customers.head()
 * **Decision Logic:**
   * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
-  * Điểm < 500: **REJECT** | Hạn mức 0 VND
+  * Điểm < 500: **REJECT**
