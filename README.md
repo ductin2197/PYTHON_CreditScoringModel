@@ -37,25 +37,26 @@ df_customers[['Decision', 'Max_Limit']] = df_customers['Credit_Score'].apply(lam
 df_customers.head()
 ```
 
+```mermaid
 flowchart LR
-
     A[Gathering Data] --> B[Processing]
     B --> C[Calculating Credit Score]
-    C -->|Reject| D[Reject]
-    C -->|Approved| E[Approved]
+
+    C -->|Score < 500| D[Reject]
+    C -->|Score ≥ 500| E[Approved]
 
     E --> F[Credit Limit: 5M VND]
     E --> G[Credit Limit: 10M VND]
 
-    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1
-    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,color:#E65100
-    style C fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
-    style D fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C
-    style E fill:#E1F5FE,stroke:#0277BD,stroke-width:2px,color:#01579B
-    style F fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px,color:#4A148C
-    style G fill:#E0F2F1,stroke:#00695C,stroke-width:2px,color:#004D40
-
----
+    %% Styling (no white / black, no duplicate colors)
+    style A fill:#F4D03F,stroke:#B7950B,stroke-width:2px,color:#5A4A00
+    style B fill:#EBDEF0,stroke:#8E44AD,stroke-width:2px,color:#4A235A
+    style C fill:#85C1E9,stroke:#2471A3,stroke-width:2px,color:#154360
+    style D fill:#F1948A,stroke:#922B21,stroke-width:2px,color:#641E16
+    style E fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#0B5345
+    style F fill:#F7DC6F,stroke:#B7950B,stroke-width:2px,color:#7D6608
+    style G fill:#EDBB99,stroke:#A04000,stroke-width:2px,color:#6E2C00
+```
 
 ## 💻 Tech Stack & Core Logic
 * **Language:** Python (thực hiện bằng Google Colab)
