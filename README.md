@@ -21,7 +21,7 @@ Hệ thống vận hành dựa trên cơ chế chấm điểm động (Dynamic S
 | **Thói quen thanh toán Hóa đơn** | >=10 lần <br> >=6 lần <br> >=3 lần <br> Chưa đủ thông tin | **+30** <br> **+15** <br> **+5** <br> **+0** |
 | **Tổng tiền giao dịch qua ví mỗi tháng** | >=10tr <br> >=3 <br> >=1tr <br> <1tr | **+35** <br> **+20** <br> **+0** <br> **-15** |
 
-## 🐍 Python Highlight
+## 🐍 Python Highlight 
 
 ```python
 def make_credit_decision(score):
@@ -36,7 +36,7 @@ def make_credit_decision(score):
 df_customers[['Decision', 'Max_Limit']] = df_customers['Credit_Score'].apply(lambda s: pd.Series(make_credit_decision(s)))
 df_customers.head()
 ```
-
+## 🧑‍💻 WORKING PEOCEDURE
 ```mermaid
 flowchart LR
     A[Gathering Data] --> B[Processing]
