@@ -53,7 +53,7 @@ flowchart LR
     style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,color:#E65100
     style C fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
     style D fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C
-    style E fill:#E1F5FE,stroke:#0277BD,stroke-width:2px,color:#01579B
+    style E fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
     style F fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px,color:#4A148C
     style G fill:#E0F2F1,stroke:#00695C,stroke-width:2px,color:#004D40
 ```
