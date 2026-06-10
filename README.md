@@ -36,6 +36,25 @@ def make_credit_decision(score):
 df_customers[['Decision', 'Max_Limit']] = df_customers['Credit_Score'].apply(lambda s: pd.Series(make_credit_decision(s)))
 df_customers.head()
 ```
+
+flowchart LR
+
+    A[Gathering Data] --> B[Processing]
+    B --> C[Calculating Credit Score]
+    C -->|Reject| D[Reject]
+    C -->|Approved| E[Approved]
+
+    E --> F[Credit Limit: 5M VND]
+    E --> G[Credit Limit: 10M VND]
+
+    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1
+    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,color:#E65100
+    style C fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style D fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C
+    style E fill:#E1F5FE,stroke:#0277BD,stroke-width:2px,color:#01579B
+    style F fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px,color:#4A148C
+    style G fill:#E0F2F1,stroke:#00695C,stroke-width:2px,color:#004D40
+
 ---
 
 ## 💻 Tech Stack & Core Logic
