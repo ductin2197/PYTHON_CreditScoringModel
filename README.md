@@ -45,6 +45,9 @@ flowchart LR
     C -->|Score < 500| D[Reject]
     C -->|Score ≥ 500| E[Approved]
 
+    E -->|Score < 600| F[Credit Limit: 5M VND]
+    E -->|Score ≥ 600| G[Credit Limit: 10M VND]
+
     E --> F[Credit Limit: 5M VND]
     E --> G[Credit Limit: 10M VND]
 
