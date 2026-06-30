@@ -52,14 +52,11 @@ def make_credit_decision(score):
     else:
         return 'REJECT', '0 VND'
 
-# Áp dụng quyết định
-df_customers[['Decision', 'Max_Limit']] = df_customers['Credit_Score'].apply(lambda s: pd.Series(make_credit_decision(s)))
-df_customers.head()
 ```
 
 ## 💻 Tech Stack & Core Logic
 * **Language:** Python (thực hiện bằng Google Colab)
-* **Libraries:** `pandas` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
+* **Libraries:** `pandas` & `numpy` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
 * **Decision Logic:**
   * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
