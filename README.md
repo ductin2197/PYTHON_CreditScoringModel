@@ -56,7 +56,7 @@ def make_credit_decision(score):
 
 ## 💻 Tech Stack & Core Logic
 * **Language:** Python (thực hiện bằng Google Colab)
-* **Libraries:** `pandas` & `numpy` (Data simulation & manipulation), `matplotlib` & `seaborn` (Statistical visualization).
+* **Libraries:** `**pandas**` & `**numpy**` (Data simulation & manipulation), `**matplotlib**` & `**seaborn**` (Statistical visualization).
 * **Decision Logic:**
   * Điểm >= 600: **APPROVE** | Hạn mức 10,000,000 VND
   * Điểm 500 - 599: **APPROVE** | Hạn mức 5,000,000 VND
